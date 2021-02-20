@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "canvas": "^2.6.1",
+    "canvas": "2.6.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
@@ -15,5 +15,8 @@
     "mongoose": "^5.11.8",
     "morgan": "~1.9.1",
     "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "14.15.1"
   }
 }
